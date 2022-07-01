@@ -1,0 +1,155 @@
+header a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: black;
+   
+}
+body{
+    background-color: black;
+}
+header{
+    height: 70px;
+    font-size: 27px;
+    background-color: rgb(241, 47, 47);
+    padding-top: 25px;
+    position: fixed;
+    top:0;
+    width:100%;
+}
+h2 a{
+    text-decoration: none;
+    color: black;
+}
+#firstDiv{
+    margin-top: 100px;
+    padding-top: 90px;
+    text-align: center;
+    height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    font-size: 40px;
+}
+#secDiv{
+    height:900px;
+    background-color: DarkSlateBlue;
+    width:100%;
+}
+#heading{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: Lucida Console;
+    text-decoration: underline;
+    text-decoration-color:blueviolet ;
+    padding-top: 20px;
+    text-underline-position: under;
+    padding-bottom: 20px;
+    margin: auto;
+}
+#Part1{
+    padding-top: 10px;
+    width:33.333%;
+    height:30%;
+    float: left;
+    text-align: center;
+    
+}
+#part2{
+    padding-top: 10px;
+    width:33.333%;
+    height:30%;
+    float: left;
+    text-align: center;
+    
+}
+#part3{
+    padding-top: 10px;
+    width:33.333%;
+    height:30%;
+    float: left;
+    text-align: center;
+    
+}
+#logoPic {
+    width: 250px;
+    height: 190px;
+    margin-top: 10px;
+  }
+  div h2 a{
+      color:white;
+      font-family: Garamond;
+  }
+  .hide{
+      display: none;
+      height:auto;
+  }
+  #button{
+      text-align: center;
+  }
+  #but1{
+      background-color: rgb(15, 14, 14);
+      color: white;
+      margin-top: 50px;
+      width:85px;
+      padding: 7px;
+  }
+  #thirdDiv{
+      height:500px;
+      padding-top:70px;
+  }
+  #thirdDivA{
+      color:white;
+      font-size: 100px;
+      text-align: center;
+      line-height: 0.5;
+  }
+  #thirdDivA em{
+      font-size: 15px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #thirdDivB{
+      text-align: center;
+  }
+  #thirdDivB ul li{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+  }
+.fa:hover {
+    opacity: 0.9;
+}
+.fa-facebook {
+    background: white;
+    color: black;
+}
+.fa-github {
+    background: black;
+    color: white;
+}
+.fa-twitter {
+    background: black;
+    color: white;
+}
+.fa-mobile-phone {
+    background: black;
+    color: white;
+}
+.fa {
+    padding: 5px;
+    padding-bottom: 0px;
+    font-size: 40px;
+    width: 12px;
+    text-decoration: none;
+    margin-right: 8px;
+}
+#text{
+    font-size: 24px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 15px;
+}
+#text a{
+    text-decoration: none;
+    color:white;
+}

@@ -1,0 +1,16 @@
+body {
+  background-color: cadetblue;
+}
+div {
+  /*margin-left: auto;
+	margin-right: auto;*/
+  margin: auto;
+  margin-top: 200px;
+  padding: 80px;
+  border: 5px solid black;
+  width: 200px;
+  position: center;
+  text-align: center;
+  background-color: cornsilk;
+  font-family: calibri;
+}

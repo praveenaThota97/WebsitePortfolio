@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Second Assignment - Periodic Table</title>
+    <style>
+      #tab {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 500px;
+      }
+      table,
+      tr,
+      td {
+        border: 2px solid red;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 0;
+      }
+      td:empty {
+        empty-cells: hide;
+      }
+      td {
+        text-align: center;
+      }
+      #Header {
+        text-align: center;
+        font-size: 50px;
+        background-color: rgb(250, 253, 98);
+      }
+      /* #noborder{
+                border: none;
+            }*/
+      #topBorder {
+        border-right: 2px solid white;
+        border-bottom-color: white;
+      }
+      #leftBorder {
+        border-right: 2px solid white;
+      }
+      #gas {
+        background-color: Tomato;
+      }
+      #metal {
+        background-color: rgb(243, 157, 240);
+      }
+      #metal1 {
+        background-color: SkyBlue;
+      }
+      #metal2 {
+        background-color: Khaki;
+      }
+      #metal3 {
+        background-color: #a7ec95;
+      }
+      #metal4 {
+        background-color: DarkGoldenRod;
+      }
+      #metal5 {
+        background-color: rgb(236, 207, 152);
+      }
+      #gas2 {
+        background-color: rgb(229, 228, 240);
+      }
+      #metal6 {
+        background-color: PapayaWhip;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <table id="tab">
+        <tr id="Header">
+          <td colspan="18">The Periodic Table</td>
+        </tr>
+        <tr>
+          <td id="gas">1<br />H<br /></td>
+          <td id="leftBorder"><br /><br /></td>
+          <td id="topBorder"><br /><br /></td>
+          <td id="topBorder"><br /><br /></td>
+          <td id="topBorder"><br /><br /></td>
+          <td id="topBorder"><br /><br /></td>
+          <td id="topBorder"><br /><br /></td>
+          <td id="topBorder"><br /><br /></td>
+          <td id="topBorder"><br /><br /></td>
+          <td id="topBorder"><br /><br /></td>
+          <td id="topBorder"><br /><br /></td>
+          <td id="topBorder"><br /><br /></td>
+          <td id="leftBorder"><br /><br /></td>
+          <td id="leftBorder"><br /><br /></td>
+          <td id="leftBorder"><br /><br /></td>
+          <td id="leftBorder"><br /><br /></td>
+          <td><br /><br /></td>
+          <td id="gas2">2<br />He<br /></td>
+        </tr>
+        <tr>
+          <td id="metal">3<br />li<br /></td>
+          <td id="metal1">4<br />Be<br /></td>
+          <td colspan="10" rowspan="2"></td>
+          <td id="metal4">5<br />B<br /></td>
+          <td id="gas">6<br />C<br /></td>
+          <td id="gas">7<br />N<br /></td>
+          <td id="gas">8<br />O<br /></td>
+          <td id="metal5">9<br />F<br /></td>
+          <td id="gas2">10<br />Ne<br /></td>
+        </tr>
+        <tr>
+          <td id="metal">11<br />Na<br /></td>
+          <td id="metal1">12<br />Mg<br /></td>
+
+          <td id="metal3">13<br />Al<br /></td>
+          <td id="metal4">14<br />Si<br /></td>
+          <td id="gas">15<br />P<br /></td>
+          <td id="gas">16<br />S<br /></td>
+          <td id="metal5">17<br />Cl<br /></td>
+          <td id="gas2">18<br />Ar<br /></td>
+        </tr>
+        <tr>
+          <td id="metal">19<br />K<br /></td>
+          <td id="metal1">20<br />ca<br /></td>
+          <td id="metal2">21<br />Sc<br /></td>
+          <td id="metal2">22<br />Ti<br /></td>
+          <td id="metal2">23<br />V<br /></td>
+          <td id="metal2">24<br />Cr<br /></td>
+          <td id="metal2">25<br />Mn<br /></td>
+          <td id="metal2">26<br />Fe<br /></td>
+          <td id="metal2">27<br />Co<br /></td>
+          <td id="metal2">28<br />Ni<br /></td>
+          <td id="metal2">29<br />Cu<br /></td>
+          <td id="metal2">30<br />Zn<br /></td>
+          <td id="metal3">31<br />Ga<br /></td>
+          <td id="metal4">32<br />Ge<br /></td>
+          <td id="metal4">33<br />As<br /></td>
+          <td id="gas">34<br />Se<br /></td>
+          <td id="metal5">35<br />Br<br /></td>
+          <td id="gas2">36<br />Kr<br /></td>
+        </tr>
+        <tr>
+          <td id="metal">37<br />Rb<br /></td>
+          <td id="metal1">38<br />Zr<br /></td>
+          <td id="metal2">39<br />Y<br /></td>
+          <td id="metal2">40<br />Zr<br /></td>
+          <td id="metal2">41<br />Nb<br /></td>
+          <td id="metal2">42<br />Mo<br /></td>
+          <td id="metal2">43<br />Tc<br /></td>
+          <td id="metal2">44<br />Ru<br /></td>
+          <td id="metal2">45<br />Rh<br /></td>
+          <td id="metal2">46<br />Pd<br /></td>
+          <td id="metal2">47<br />Ag<br /></td>
+          <td id="metal2">48<br />Cd<br /></td>
+          <td id="metal3">49<br />In<br /></td>
+          <td id="metal3">50<br />Cn<br /></td>
+          <td id="metal4">51<br />Sb<br /></td>
+          <td id="metal4">52<br />Te<br /></td>
+          <td id="metal5">53<br />I<br /></td>
+          <td id="gas2">54<br />Xe<br /></td>
+        </tr>
+        <tr>
+          <td id="metal">55<br /><br /></td>
+          <td id="metal1">56<br />Ba<br /></td>
+          <td id="metal6">57-71<br /><br /></td>
+          <td id="metal2">72<br />Hf<br /></td>
+          <td id="metal2">73<br />Ta<br /></td>
+          <td id="metal2">74<br />W<br /></td>
+          <td id="metal2">75<br />Re<br /></td>
+          <td id="metal2">76<br />Os<br /></td>
+          <td id="metal2">77<br />Ir<br /></td>
+          <td id="metal2">78<br />Pt<br /></td>
+          <td id="metal2">79<br />Au<br /></td>
+          <td id="metal2">80<br />Hg<br /></td>
+          <td id="metal3">81<br />Ti<br /></td>
+          <td id="metal3">82<br />Pb<br /></td>
+          <td id="metal3">83<br />Bi<br /></td>
+          <td id="metal4">84<br />Po<br /></td>
+          <td id="metal5">85<br />At<br /></td>
+          <td id="gas2">86<br />Rn<br /></td>
+        </tr>
+        <tr>
+          <td id="metal">87<br />Fr<br /></td>
+          <td id="metal1">88<br />Ra<br /></td>
+          <td id="metal6">89-103<br /><br /></td>
+          <td id="metal2">104<br />Rf<br /></td>
+          <td id="metal2">105<br />Db<br /></td>
+          <td id="metal2">106<br />Sg<br /></td>
+          <td id="metal2">107<br />Bh<br /></td>
+          <td id="metal2">108<br />Hs<br /></td>
+          <td id="metal2">109<br />Mt<br /></td>
+          <td id="metal2">110<br />Ds<br /></td>
+          <td id="metal2">111<br />Rg<br /></td>
+          <td id="metal2">112<br />Cn<br /></td>
+          <td id="metal6">113<br />Nh<br /></td>
+          <td id="metal6">114<br />Fl<br /></td>
+          <td id="metal6">115<br />Mc<br /></td>
+          <td id="metal6">116<br />Lv<br /></td>
+          <td id="metal6">117<br />Ts<br /></td>
+          <td id="metal6">118<br />Og<br /></td>
+        </tr>
+        <tr>
+          <td colspan="2" rowspan="2"></td>
+          <td id="metal6">57<br />La<br /></td>
+          <td id="metal6">58<br />Ce<br /></td>
+          <td id="metal6">59<br />Pr<br /></td>
+          <td id="metal6">60<br />Nd<br /></td>
+          <td id="metal6">61<br />Pm<br /></td>
+          <td id="metal6">62<br />Sm<br /></td>
+          <td id="metal6">63<br />Eu<br /></td>
+          <td id="metal6">64<br />Gd<br /></td>
+          <td id="metal6">65<br />Tb<br /></td>
+          <td id="metal6">66<br />Dy<br /></td>
+          <td id="metal6">67<br />Ho<br /></td>
+          <td id="metal6">68<br />Er<br /></td>
+          <td id="metal6">69<br />Tm<br /></td>
+          <td id="metal6">70<br />Yb<br /></td>
+          <td id="metal6">71<br />Lu<br /></td>
+          <td colspan="2" rowspan="2"><br /><br /></td>
+        </tr>
+        <tr>
+          <td id="metal6">89<br />Ac<br /></td>
+          <td id="metal6">90<br />Th<br /></td>
+          <td id="metal6">91<br />Pa<br /></td>
+          <td id="metal6">92<br />U<br /></td>
+          <td id="metal6">93<br />Np<br /></td>
+          <td id="metal6">94<br />Pu<br /></td>
+          <td id="metal6">95<br />Am<br /></td>
+          <td id="metal6">96<br />Cm<br /></td>
+          <td id="metal6">97<br />Bk<br /></td>
+          <td id="metal6">98<br />Cf<br /></td>
+          <td id="metal6">99<br />Es<br /></td>
+          <td id="metal6">100<br />Fm<br /></td>
+          <td id="metal6">101<br />Md<br /></td>
+          <td id="metal6">102<br />No<br /></td>
+          <td id="metal6">103<br />Lr<br /></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Form</title>
+    <style>
+      form {
+        margin-top: 20px;
+      }
+      #frstName {
+        background-color: rgb(245, 237, 237);
+        color: rgb(20, 20, 20);
+      }
+      #drpdwn{
+          width: 200px;
+      }
+      h1{
+          text-align: center;
+      }
+      input[type="text"],
+      input[type="password"],
+      input[type="email"],
+      #drpdwn,
+      label {
+        float: left;
+        margin-left: 30px;
+      }
+      label {
+        margin-bottom: 7px;
+        margin-top: 7px;
+        color: rgb(0, 0, 0);
+      }
+      input[type="text"],
+      input[type="password"],
+      input[type="email"] {
+        width: 80%;
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 4px;
+      }
+      input[type="radio"]
+      {
+        margin-left: 20px;
+      }
+      input[type="submit"] {
+        width: 80%;
+        padding: 10px;
+        margin-top: 20px;
+        margin-right: 15px;
+        font-size: 20px;
+        background-color: yellowgreen;
+        border-radius: 25px;
+      }
+      #drpdwn {
+        width: 85%;
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 4px;
+      }
+      #contForm{
+        text-align: center;
+        width: 500px;
+        height: 560px;
+        margin-left: 425px;
+        border: 1px solid rgb(8, 8, 8);   
+      }
+      #rdbt{
+        margin-top: 25px;
+        padding-left: 0px;
+      }
+      #gen{
+        margin-top: 30px;
+      }
+      #slect{
+        margin-top: 25px;
+      }
+      #chkbox{
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+      <h1>HTML Form</h1>
+      <div id="contForm">
+        <form action="" target="_blank">
+            <label for="frstName">First Name</label><br />
+            <input type="text" id="frstName" name="frstName" /><br /><br />
+            <label for="lastName">Last Name</label><br />
+            <input type="text" id="lastName" name="lastName" /><br /><br />
+            <label for="email">Email</label><br />
+            <input type="email" id="email" name="email" /><br /><br />
+            <label for="passwrd">Password</label><br />
+            <input type="password" id="passwrd" name="passwrd" /><br /><br />
+            <label for="drpdwn"><b>Select State</b></label><br>
+            <select id="drpdwn">
+              <option>Maldives</option>
+              <option>J&K</option>
+              <option>HOME</option>
+              <option>Ladak</option>
+            </select><br><br>
+            <label for="rdbt" id="gen"><b>Gender:</b></label>
+            <label for="rdbt">Male
+            <input type="radio" id="rdbt" name="rdbt" /></label>
+            <label for="rdbt">Female
+            <input type="radio" id="rdbt" name="rdbt" /></label>
+            <label for="rdbt">Others
+            <input type="radio" id="rdbt" name="rdbt" /></label><br />
+            <label id="slect"><b>Please select fav subject:</b></label
+            ><br /><br />
+            <label for="chkbox">Mathematics
+            <input type="checkbox" id="chkbox" name="chkbox" checked /></label>
+            <label for="chkbox">Science <input type="checkbox" id="chkbox" name="chkbox" /></label
+            ><br /><br />
+            <input type="submit" value="submit" />
+          </form>
+      </div>
+    
+  </body>
+</html>
